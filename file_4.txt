@@ -1,0 +1,1 @@
+DATABASE_URL="postgresql://user:password@localhost/expense_tracker_db"

@@ -1,0 +1,1 @@
+SECRET_KEY="your-highly-secure-jwt-secret-key-that-is-long-and-random"

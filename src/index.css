@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1e293b; /* Dark slate */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #475569; /* Slate */
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b; /* Lighter slate */
+}
+
+/* Base styles for dark mode */
+body {
+  @apply bg-gradient-to-br from-slate-950 to-indigo-950 text-gray-100 font-sans;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+}
